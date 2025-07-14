@@ -1,0 +1,2 @@
+# TAILWIND-CSS---STYLE-APPS-LIKE-A-DESIGN-GURU-Assingment
+The Assingment for TAILWIND CSS - STYLE APPS LIKE A DESIGN GURU concluded on 14th of july 2025
