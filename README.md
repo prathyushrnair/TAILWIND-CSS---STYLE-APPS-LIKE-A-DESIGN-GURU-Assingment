@@ -35,7 +35,11 @@ Simply open the dark_index.html file in your preferred web browser. There's no n
 open dark_index.html
 
 📸 Screenshot
-(Please replace this placeholder with an actual screenshot of your dark_index.html page in dark mode.)
+screenshots of the UI are posted below ⬇️⬇️
+![1](/images/tail%20wind%20css%20UI%20pic%201.png)
+![2](/images/tail%20wind%20css%20UI%20pic%202.png)
+![3](/images/tail%20wind%20css%20UI%20pic%203.png)
+![4](/images/tail%20wind%20css%20UI%20pic%204.png)
 
 
 
