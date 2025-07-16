@@ -12,7 +12,7 @@
   <!-- Navigation Bar  contains 4 attributs [HOME ABOUT PROJECT CONTACT]-->
   <nav class="bg-gray-900 shadow-lg shadow-white/10 fixed w-full z-10 border-b border-gray-800">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between">
-      <h1 class="text-xl font-bold text-gray-100">MyPortfolio</h1>
+      <h1 class="text-xl font-bold text-gray-100 px-1">MyPortfolio</h1>
       <ul class="flex gap-6">
         <!-- Anchor links to sections -->
         <li><a href="#home" class="hover:text-blue-500 transition-colors">Home</a></li>
@@ -33,15 +33,15 @@
     <img src="images\555.jpg" alt="Profile" class="rounded-full mb-4 shadow-lg shadow-white/20" />
 
     <!-- Catchy quote -->
-    <p class="italic text-gray-400 mb-4">"Turning ideas into digital reality."</p>
+    <p class="italic text-gray-400 mb-4">"RANDOM 💡 MOMENTS TO AHHA MOMENT"</p>
 
     <!-- Download Resume Button -->
-    <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition duration-300 ease-in-out shadow-lg shadow-white/20"> <!--wanted to mae the button pop but not working-->
-      Download Resume
+    <button class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 shadow-lg shadow-white/20 hover:transition duration-300 ease-in-out"> <!--wanted to mae the button pop but not working-->
+    --> Download Resume  <--
     </button>
   </section>
 
-  <!-- 2. About Me Section -->
+  <!--  About Me Section -->
   <section id="about" class="max-w-4xl mx-auto px-4 py-20">
     <!-- About paragraph -->
     <h2 class="text-3xl font-semibold mb-6 text-gray-100">About Me</h2>
@@ -49,18 +49,33 @@
 
     <!-- Key Skills -->
     <h3 class="text-xl font-medium mb-2 text-gray-200">Skills</h3>
-    <ul class="list-disc pl-6 mb-4 text-gray-300">
+    <div class="flex flex-row">
+
+    </div>
+    <ul class="list-disc pl-6 mb-4 text-gray-300 flex-col">
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
       <li>Tailwind CSS</li>
+      <li>Python</li>
+      <li>Arduino</li>
+      <li>C programming</li>
+      <li>MY SQL [CREATING/MANAGING DATA BASES ]</li>
+    </ul>
+    <section class="p-8 ">
+      <h3 class="text-xl font-medium mb-2 text-gray-200">Education</h3>
+      <ul class="pl-4  text-gray-300">
+      <li>1. SECONDARY 10th [Computer Science]-<a href="https://www.bhavansvaruna.ac.in/">BHAVANS VARUNA VIDYALAYA</a> </li>
+    </ul>
+    <ul class="pl-4 text-gray-300">
+      <li>2. SENIOR SECONDARY 12th [Computer Science]   <a href="https://www.bhavansvaruna.ac.in/">BHAVANS VARUNA VIDYALAYA</a> </li>
+    </ul>
+    <ul class="pl-4 text-gray-300">
+      <li>3. B.Tech in Computer Science - <a href="https://mgmits.ac.in/">Muthooth Institute Of Technology and Science (2024-2028)</a> </li>
     </ul>
 
-    <!-- Education or Experience -->
-    <h3 class="text-xl font-medium mb-2 text-gray-200">Education</h3>
-    <ul class="pl-4 text-gray-300">
-      <li>B.Tech in Computer Science - XYZ University (2021-2025)</li>
-    </ul>
+    </section>
+
   </section>
 
   <!-- 3. Projects Section -->
@@ -68,15 +83,30 @@
     <div class="max-w-6xl mx-auto">
       <h2 class="text-3xl font-semibold mb-8 text-gray-100">Projects</h2>
       <div class="grid md:grid-cols-3 gap-6">
-        <!-- Repeat this block for 3+ projects -->
+        <!-- Repeated this block [85-89] copy pastaaa -->
         <div class="bg-gray-800 p-4 rounded border border-gray-700 hover:scale-105 hover:shadow-lg hover:shadow-white/20 transition-all">
-          <h3 class="text-xl font-bold mb-2 text-gray-100">Weather App</h3>
-          <img src="https://via.placeholder.com/300x150" alt="Project Screenshot" class="mb-2 rounded">
-          <p class="mb-2 text-gray-300">Displays real-time weather info using OpenWeather API. Built with HTML/CSS/JS.</p>
-          <a href="#" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">GitHub Repo</a>
+          <h3 class="text-xl font-bold mb-2 text-gray-100">Fitness Tracker [Gamified with rewards system]</h3>
+          <p class="mb-2 text-gray-300">Displays rewards earned by doing any kind exercises Built with Python KIVY and MYSQL for DATA BASES</p>
+          <a href="https://github.com/prathyushrnair/Fantastic-4" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">GitHub Repo</a>
         </div>
 
-        <!-- Add more project cards as needed -->
+        <div class="bg-gray-800 p-4 rounded border border-gray-700 hover:scale-105 hover:shadow-lg hover:shadow-white/20 transition-all">
+          <h3 class="text-xl font-bold mb-2 text-gray-100">A SIMPLE Calculator</h3>
+          <p class="mb-2 text-gray-300">Simple Calculator Web App USING HTML CSS AND JavaScript </p>
+          <a href="https://github.com/prathyushrnair/FOC-assignment-1" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">GitHub Repo</a>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded border border-gray-700 hover:scale-105 hover:shadow-lg hover:shadow-white/20 transition-all">
+          <h3 class="text-xl font-bold mb-2 text-gray-100"> Voting System Using Structures in C</h3>
+          <p class="mb-2 text-gray-300">Voting system written in C using structures and dynamic memory allocation</p>
+          <a href="https://github.com/prathyushrnair/Voting-System" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">GitHub Repo</a>
+        </div>
+        
+        <div class="bg-gray-800 p-4 rounded border border-gray-700 hover:scale-105 hover:shadow-lg hover:shadow-white/20 transition-all">
+          <h3 class="text-xl font-bold mb-2 text-gray-100"> Sending IR Signals through an ESP 32 </h3>
+          <p class="mb-2 text-gray-300">Time-based-ESP-32-remote-using-WIFI in arduino</p>
+          <a href="https://github.com/prathyushrnair/Time-based-ESP-32-remote-using-WIFI" class="text-blue-500 hover:text-blue-400 hover:underline transition-colors">GitHub Repo</a>
+        </div>
       </div>
     </div>
   </section>
