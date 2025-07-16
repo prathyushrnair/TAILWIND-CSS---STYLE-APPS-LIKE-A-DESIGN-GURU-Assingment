@@ -17,23 +17,6 @@ HTML5: For structuring the web content.
 
 Tailwind CSS: For all styling, leveraging its utility-first framework.
 
-⚙️ Setup and Usage
-To view and interact with this project locally, follow these simple steps:
-
-Clone the repository:
-
-git clone https://github.com/prathyushrnair/TAILWIND-CSS---STYLE-APPS-LIKE-A-DESIGN-GURU-Assingment.git
-
-Navigate to the project directory:
-
-cd TAILWIND-CSS---STYLE-APPS-LIKE-A-DESIGN-GURU-Assingment
-
-Open the dark_index.html file:
-Simply open the dark_index.html file in your preferred web browser. There's no need for a local server or complex build process, as Tailwind CSS is likely included via a CDN or pre-compiled.
-
-# Example command (might vary by OS)
-open dark_index.html
-
 📸 Screenshot
 screenshots of the UI are posted below ⬇️⬇️
 ![1](/images/tail%20wind%20css%20UI%20pic%201.png)
