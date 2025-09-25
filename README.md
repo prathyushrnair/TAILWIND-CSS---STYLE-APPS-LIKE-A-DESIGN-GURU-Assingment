@@ -33,3 +33,7 @@ This project is open-sourced under the MIT License.
 DevTown: For providing an excellent 5-day bootcamp on Tailwind CSS, which inspired and guided the creation of this project.
 
 Tailwind CSS: For making web styling intuitive and efficient.
+
+click the link below to view my resume
+
+https://prathyushrnair.github.io/TAILWIND-CSS---STYLE-APPS-LIKE-A-DESIGN-GURU-Assingment/
